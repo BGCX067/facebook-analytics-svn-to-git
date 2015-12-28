@@ -1,0 +1,13 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore">
+  <expression:EMFExpression id="null=>" expression="result_tags.id!=null?result_tags.id:UUID.randomUUID()">
+    <variables name="result_tags.id" value="null" talendType="id_String" nullable="true"/>
+    <variables name="result_tags.name" value="null" talendType="id_String" nullable="true"/>
+    <variables name="Var.id" value="null" talendType="id_String"/>
+  </expression:EMFExpression>
+  <expression:EMFExpression id="null=>Var=>id" expression="result_tags.id!=null?result_tags.id:FacebookUtils.getUUID()">
+    <variables name="result_tags.id" value="null" talendType="id_String" nullable="true"/>
+    <variables name="result_tags.name" value="null" talendType="id_String" nullable="true"/>
+    <variables name="Var.id" value="null" talendType="id_String"/>
+  </expression:EMFExpression>
+</xmi:XMI>

@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore">
+  <expression:EMFExpression id="null=>Var=>updated_time" expression="TalendDate.parseDate(&quot;yyyy-MM-dd'T'HH:mm:ss'+0000'&quot;,insert_status.updated_time)      ">
+    <variables name="insert_status.id" value="null" talendType="id_String" nullable="true"/>
+    <variables name="insert_status.message" value="null" talendType="id_String" nullable="true"/>
+    <variables name="insert_status.updated_time" value="null" talendType="id_String" nullable="true"/>
+    <variables name="Var.updated_time" value="null" talendType="id_Date"/>
+  </expression:EMFExpression>
+  <expression:EMFExpression id="null=>Var=>created_time" expression="result_comment.created_time!=null?TalendDate.parseDate(&quot;yyyy-MM-dd'T'HH:mm:ss'+0000'&quot;,result_comment.created_time):null        ">
+    <variables name="result_comment.id" value="null" talendType="id_String" nullable="true"/>
+    <variables name="result_comment.created_time" value="null" talendType="id_String" nullable="true"/>
+    <variables name="Var.created_time" value="null" talendType="id_Date"/>
+  </expression:EMFExpression>
+  <expression:EMFExpression id="null=>insert_like=>id" expression="((String)globalMap.get(&quot;comment.id&quot;))+&quot;_&quot;+result_like.id ">
+    <variables name="result_like.id" value="null" talendType="id_String" nullable="true"/>
+    <variables name="result_like.name" value="null" talendType="id_String" nullable="true"/>
+  </expression:EMFExpression>
+</xmi:XMI>

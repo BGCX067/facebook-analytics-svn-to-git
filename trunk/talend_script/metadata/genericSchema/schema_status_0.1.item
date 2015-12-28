@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_OMFswHUcEeG1tsSFGlozmQ" name="repository.metadataGenericSchema" dataPackage="_OMFswXUcEeG1tsSFGlozmQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_OMFswXUcEeG1tsSFGlozmQ" name="repository.metadataGenericSchema" dataManager="_OMFswHUcEeG1tsSFGlozmQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_OMFswnUcEeG1tsSFGlozmQ" id="_wmIUgHUbEeG1tsSFGlozmQ" label="status">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OMFsw3UcEeG1tsSFGlozmQ" name="id" label="id" length="20" talendType="id_String">
+        <initialValue xmi:id="_OMFsxHUcEeG1tsSFGlozmQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OMFsx3UcEeG1tsSFGlozmQ" name="message" label="message" length="2000" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vf5aUHUdEeG1tsSFGlozmQ" name="updated_time" label="updated_time" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

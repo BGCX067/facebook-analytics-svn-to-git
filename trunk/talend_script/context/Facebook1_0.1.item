@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="Facebook1_Server" prompt="Facebook1_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter comment="" name="Facebook1_Password" prompt="Facebook1_Password?" promptNeeded="false" type="id_Password" value="TrIVY9qYo9g="/>
+  <contextParameter comment="" name="Facebook1_Login" prompt="Facebook1_Login?" promptNeeded="false" type="id_String" value="root"/>
+  <contextParameter comment="" name="Facebook1_AdditionalParams" prompt="Facebook1_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter comment="" name="Facebook1_Database" prompt="Facebook1_Database?" promptNeeded="false" type="id_String" value="facebook"/>
+  <contextParameter comment="" name="Facebook1_Port" prompt="Facebook1_Port?" promptNeeded="false" type="id_String" value="3306"/>
+</talendfile:ContextType>

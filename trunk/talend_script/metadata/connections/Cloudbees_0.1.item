@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.foundation.softwaredeployment="http:///orgomg/cwm/foundation/softwaredeployment.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_nCiwUHUZEeG1tsSFGlozmQ" name="Cloudbees" label="Cloudbees" component="_ncDcgHUZEeG1tsSFGlozmQ" dataPackage="_ncAZMHUZEeG1tsSFGlozmQ" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://ec2-174-129-9-255.compute-1.amazonaws.com:3306/marcbat?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="marcbat" Password="nRwk8UXhZHM=" ServerName="ec2-174-129-9-255.compute-1.amazonaws.com" DatasourceName="" FileFieldName="" SID="marcbat" SqlSynthax="Syntaxe SQL" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_nDImMHUZEeG1tsSFGlozmQ" tag="Using URL" value="jdbc:mysql://ec2-174-129-9-255.compute-1.amazonaws.com:3306/marcbat?noDatetimeStringSync=true"/>
+    <taggedValue xmi:id="_nN0MMHUZEeG1tsSFGlozmQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_nN0MMXUZEeG1tsSFGlozmQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_nN0MMnUZEeG1tsSFGlozmQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_nN0MM3UZEeG1tsSFGlozmQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_nN0MNHUZEeG1tsSFGlozmQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_nN0MNXUZEeG1tsSFGlozmQ" tag="otherParameter" value=""/>
+    <taggedValue xmi:id="_nOrH0HUZEeG1tsSFGlozmQ" tag="DB IdentifierQuoteString" value="`"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ncAZMHUZEeG1tsSFGlozmQ" name="marcbat" dataManager="_nCiwUHUZEeG1tsSFGlozmQ"/>
+  <orgomg.cwm.foundation.softwaredeployment:Component xmi:id="_ncDcgHUZEeG1tsSFGlozmQ" deployment="_nCiwUHUZEeG1tsSFGlozmQ"/>
+</xmi:XMI>

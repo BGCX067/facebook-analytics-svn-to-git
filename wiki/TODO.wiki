@@ -1,0 +1,37 @@
+==informations pertinentes à remonter==
+
+===Friends===
+
+ * Date d'anniversaire 
+ * r12 Location 
+ * r12 Hometown 
+ * r12 Relationship_status 
+ * r12 Politics 
+ * r12 Religion 
+
+===Status===
+
+ * Date de publication
+ * Nombre de commentaire
+ * Nombre de like
+ * Top commenteur
+ * Top likeur
+
+===Photos de l'utilisateur===
+ 
+ * r19 Nombre de photos
+ * r19 Qui publie les photos
+ * r19 Avec qui suis je le plus tagé
+ * r19 Quelle photo de moi est la plus commenté
+ * r19 Quelle photo de moi est la plus liké
+ * r19 Qui aime le plus mes photos
+ * r19 Qui commente le plus mes photos
+
+===Checkins===
+
+ * Nombre de checkins
+ * Nombre de commentaires
+ * Nombre de like
+ * Top commenteur
+ * Top likeur
+ * Top application

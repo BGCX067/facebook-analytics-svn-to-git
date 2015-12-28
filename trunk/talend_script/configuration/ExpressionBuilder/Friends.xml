@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="null=>Var=>updated_time" expression="result_friend.updated_time!=null?TalendDate.parseDate(&quot;yyyy-MM-dd'T'HH:mm:ss'+0000'&quot;,result_friend.updated_time):null         ">
+  <variables name="result_friend.id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="result_friend.name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="result_friend.first_name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="result_friend.last_name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="result_friend.gender" value="null" talendType="id_String" nullable="true"/>
+  <variables name="result_friend.locale" value="null" talendType="id_String" nullable="true"/>
+  <variables name="result_friend.link" value="null" talendType="id_String" nullable="true"/>
+  <variables name="result_friend.username" value="null" talendType="id_String" nullable="true"/>
+  <variables name="result_friend.updated_time" value="null" talendType="id_String" nullable="true"/>
+  <variables name="result_friend.birthday" value="null" talendType="id_String" nullable="true"/>
+  <variables name="result_friend.hometown_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="result_friend.interested_in" value="null" talendType="id_String" nullable="true"/>
+  <variables name="result_friend.location_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Var.updated_time" value="null" talendType="id_Date"/>
+</expression:EMFExpression>

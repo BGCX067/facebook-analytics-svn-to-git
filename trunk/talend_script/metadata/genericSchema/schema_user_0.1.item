@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_TnaX4HUaEeG1tsSFGlozmQ" name="repository.metadataGenericSchema" dataPackage="_Tna-8HUaEeG1tsSFGlozmQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_Tna-8HUaEeG1tsSFGlozmQ" name="repository.metadataGenericSchema" dataManager="_TnaX4HUaEeG1tsSFGlozmQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Tna-8XUaEeG1tsSFGlozmQ" id="_DT6UMHUaEeG1tsSFGlozmQ" label="user">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Tna-8nUaEeG1tsSFGlozmQ" name="id" label="id" length="20" sourceType="" talendType="id_String" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Tna-83UaEeG1tsSFGlozmQ" name="name" label="name" length="500" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Tna-9HUaEeG1tsSFGlozmQ" name="first_name" label="first_name" length="500" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Tna-9XUaEeG1tsSFGlozmQ" name="last_name" label="last_name" length="500" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Tna-9nUaEeG1tsSFGlozmQ" name="link" label="link" length="500" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Tna-93UaEeG1tsSFGlozmQ" name="username" label="username" length="500" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Tna--HUaEeG1tsSFGlozmQ" name="gender" label="gender" length="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Tna--XUaEeG1tsSFGlozmQ" name="locale" label="locale" length="10" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
